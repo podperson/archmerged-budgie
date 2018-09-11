@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -76,14 +69,14 @@ echo
 cp -rT /etc/skel ~
 
 echo "################################################################"
-echo "####     Software from ArcoLinux 3party Repository           ####"
+echo "####     Software from ArcoLinux 3party Repository          ####"
 echo "################################################################"
 echo "Retry if it times out - large files to download"
 
-sudo pacman -S --noconfirm --needed discord
-sudo pacman -S --noconfirm --needed dropbox
+#sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed dropbox
 sudo pacman -S --noconfirm --needed insync
-sudo pacman -S --noconfirm --needed spotify
+#sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"
@@ -102,3 +95,6 @@ echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"
 echo "################################################################"
 echo
+echo "################################################################"
+echo "#########                600 POded               ###############"
+echo "################################################################"
